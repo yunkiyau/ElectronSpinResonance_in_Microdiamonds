@@ -1,6 +1,6 @@
 # Optical Detection of Electron Spin Resonance in NV⁻ Centres
 
-This repository contains the code and documentation for a compact ODMR (Optically Detected Magnetic Resonance) platform using nitrogen-vacancy (NV⁻) centres in microdiamonds. The platform integrates optical excitation, microwave control, and synchronized photodetection to resolve zero-field and Zeeman-split spin transitions.
+This repository contains the code and documentation for running a compact ODMR (Optically Detected Magnetic Resonance) platform on nitrogen-vacancy (NV⁻) centres in microdiamonds. The platform integrates optical excitation, microwave control, and synchronized photodetection to resolve zero-field and Zeeman-split spin transitions in diamond NV⁻ centres.
 
 ---
 
@@ -25,7 +25,7 @@ Negatively charged NV⁻ centres in diamond exhibit spin-dependent fluorescence 
 The experiment setup includes:
 - Laser excitation at 532 nm.
 - Optomechanics for beam shaping and focusing.
-- Dichroic optics and filters for fluorescence detection.
+- Dichroic lenses and filters for fluorescence detection.
 - Microwave delivery via PCB stripline (rigged up by Dr. Cyril Laplane).
 - Python-based serial control of RF source and data acquisition.
 
@@ -43,30 +43,29 @@ Please see the report for the detailed optomechanical layout.
 
 ## 📊 Sample Output
 
-Sample output from the code is available [here](./1MHz_sweep_10dbm.png)
+Sample output from the code is available [here](./data/1MHz_sweep_10dbm.png)
 
 ---
 
 ## 📁 Folder Structure
 
 - `src/`: Source code
-- `data/`: Raw traces or processed CSV data
-- `figures/`: Beam profiles, resonance curves
-- `requirements.txt`: Python dependencies (e.g., `pyserial`, `numpy`, `matplotlib`, `pymoku`)
+- `data/`: Output CSV data, sample output
+- `report/': Final report for SCDL3991 - Science Dalyell Individual Research Project
 
 ---
 
-## 📜 Publication / Report
+## 📜 Report
 
-The full technical report is available [here](./Yunki_Dalyell_Report_23JUNE25.pdf) 
+The full technical report is available [here](./report/Yunki_Dalyell_Report_23JUNE25.pdf) 
 
 ---
 
 ## 🧑‍💻 Author
 
 **Yunki Yau**  
-- University of Sydney, Dalyell Scholar  
-- Email: yyau2516@uni.sydney.edu.au  
+- University of Sydney, BSc(Adv) Physics major (complete) & Computer Science minor (1st year), Dalyell Scholar Program
+- Email: yyau2516@uni.sydney.edu.au, yunki.yau@gmail.com
 
 ---
 
@@ -76,6 +75,6 @@ Supervised by Dr. Robert Wolf and Dr. Cyril Laplane (USyd Quantum Control Lab).
 
 > ⚠️ This project was conducted under supervision at the University of Sydney Quantum Control Laboratory.  
 > Code and documentation are shared for academic review and demonstration purposes only.  
-> Please contact me (yunki.yau@gmail.com) before reusing or redistributing any portion of this work.
+> Please contact me (yyau2516@uni.sydney.edu.au or yunki.yau@gmail.com) before reusing or redistributing any portion of this work.
 
 
