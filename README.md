@@ -37,13 +37,13 @@ Please see the report for the detailed optomechanical layout.
 
 ## 🧠 Code Features
 
-- `frequency_sweep_experiment.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts with real-time plotting and saving of experimental data.
+- `frequency_sweep_experiment.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts with real-time plotting and saving of experimental data. Script is available [here](./src/frequency_sweep_experiment.py)
 
 ---
 
 ## 📊 Sample Output
 
-Sample output from the code is available [here](./data/1MHz_sweep_10dbm.png)
+Sample real-time plot from the experiment automation script is available [here](./data/1MHz_sweep_10dbm.png)
 
 ---
 
