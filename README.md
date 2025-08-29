@@ -4,7 +4,7 @@ This repository contains the code and documentation for running a compact ODMR (
 
 ---
 
-## 🔬 Project Summary
+## Project Summary
 
 Negatively charged NV⁻ centres in diamond exhibit spin-dependent fluorescence under optical excitation and microwave driving. In this project, I built a tabletop system to:
 
@@ -22,7 +22,7 @@ We show that even using modest, off-the-shelf optomechanical equipment, we can e
 
 ---
 
-## ⚙️ System Overview
+## System Overview
 
 The experiment setup includes:
 - A 532 nm laser diode.
@@ -35,19 +35,19 @@ Please see the report for the detailed optomechanical layout.
 
 ---
 
-## 🧠 Code Features
+## Code Features
 
 - `frequency_sweep_experiment.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts with real-time plotting and saving of experimental data. Script is available [here](./src/frequency_sweep_experiment.py)
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 Sample real-time plot from the experiment automation script is available [here](./data/1MHzsweep_100steps_10bins.png)
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 - `src/`: Source code
 - `data/`: Sample real-time plot that is produced by the source code
@@ -55,13 +55,13 @@ Sample real-time plot from the experiment automation script is available [here](
 
 ---
 
-## 📜 Report
+## Report
 
 The full technical report is available [here](./report/Yunki_Dalyell_Report_23JUNE25.pdf) 
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Yunki Yau**  
 - University of Sydney, BSc(Adv) Physics major (complete) & Computer Science minor (1st year), Dalyell Scholar Program
@@ -69,11 +69,11 @@ The full technical report is available [here](./report/Yunki_Dalyell_Report_23JU
 
 ---
 
-## 🧪 Acknowledgements
+## Acknowledgements
 
 Supervised by Dr. Robert Wolf and Dr. Cyril Laplane (USyd Quantum Control Lab).
 
-> ⚠️ This project was conducted under supervision at the University of Sydney Quantum Control Laboratory.  
+> This project was conducted under supervision at the University of Sydney Quantum Control Laboratory.  
 > Code and documentation are shared for academic review and demonstration purposes only.  
 > Please contact me (yyau2516@uni.sydney.edu.au or yunki.yau@gmail.com) before reusing or redistributing any portion of this work.
 
