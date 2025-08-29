@@ -1,6 +1,6 @@
 # Optical Detection of Electron Spin Resonance in NV⁻ Centres
 
-This repository contains the code and documentation for running a compact ODMR (Optically Detected Magnetic Resonance) platform on nitrogen-vacancy (NV⁻) centres in microdiamonds. The platform integrates optical excitation, microwave control, and synchronized photodetection to resolve zero-field and Zeeman-split spin transitions in diamond NV⁻ centres.
+This repository contains the code and documentation for running a compact ODMR (Optically Detected Magnetic Resonance) platform on nitrogen-vacancy (NV⁻) centres in microdiamonds. The platform uses laser excitation, microwaves, and synchronized photodetection to resolve zero-field and Zeeman-split spin transitions in diamond NV⁻ centres.
 
 ---
 
@@ -12,18 +12,20 @@ Negatively charged NV⁻ centres in diamond exhibit spin-dependent fluorescence 
 - Detect Zeeman splitting under external magnetic fields.
 - Synchronize data acquisition with a custom Python script.
 
+We show that even using modest, off-the-shelf optomechanical equipment, we can exert quantum control in solid state systems.
+
 **Key hardware**:  
 - SG4400L RF Signal Generator (DS Instruments)
 - Thorlabs SPCM20A Single-Photon Detector (Thorlabs)
 - Moku:Lab Oscilloscope (Liquid Instruments)
-- Neodymium magnet (~2.6 mT max)
+- Neodymium magnet (~2.6 mT)
 
 ---
 
 ## ⚙️ System Overview
 
 The experiment setup includes:
-- Laser excitation at 532 nm.
+- A 532 nm laser diode.
 - Optomechanics for beam shaping and focusing.
 - Dichroic lenses and filters for fluorescence detection.
 - Microwave delivery via PCB stripline (rigged up by Dr. Cyril Laplane).
@@ -35,8 +37,7 @@ Please see the report for the detailed optomechanical layout.
 
 ## 🧠 Code Features
 
-- `main_control.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts.
-- `serial_interface.py`: Handles communication with SG4400L and Moku:Lab.
+- `frequency_sweep_experiment.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts with real-time plotting and saving of experimental data.
 - `signal_processing.py`: Extracts resonance dips, normalizes signal, and plots ODMR spectra.
 
 ---
@@ -50,7 +51,7 @@ Sample output from the code is available [here](./data/1MHz_sweep_10dbm.png)
 ## 📁 Folder Structure
 
 - `src/`: Source code
-- `data/`: Output CSV data, sample output
+- `data/`: Output CSV data
 - `report/': Final report for SCDL3991 - Science Dalyell Individual Research Project
 
 ---
