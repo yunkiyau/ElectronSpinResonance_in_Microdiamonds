@@ -38,7 +38,6 @@ Please see the report for the detailed optomechanical layout.
 ## 🧠 Code Features
 
 - `frequency_sweep_experiment.py`: Automates RF frequency sweep, toggling microwaves, and capturing photon counts with real-time plotting and saving of experimental data.
-- `signal_processing.py`: Extracts resonance dips, normalizes signal, and plots ODMR spectra.
 
 ---
 
