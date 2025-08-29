@@ -50,7 +50,7 @@ Sample real-time plot from the experiment automation script is available [here](
 ## 📁 Folder Structure
 
 - `src/`: Source code
-- `data/`: Output CSV data
+- `data/`: Sample real-time plot that is produced by the source code
 - `report/': Final report for SCDL3991 - Science Dalyell Individual Research Project
 
 ---
