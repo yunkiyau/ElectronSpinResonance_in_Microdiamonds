@@ -43,7 +43,7 @@ Please see the report for the detailed optomechanical layout.
 
 ## 📊 Sample Output
 
-Sample real-time plot from the experiment automation script is available [here](./data/1MHz_sweep_10dbm.png)
+Sample real-time plot from the experiment automation script is available [here](./data/1MHzsweep_100steps_10bins.png)
 
 ---
 
